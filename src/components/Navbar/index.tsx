@@ -12,8 +12,8 @@ const Navbar = () => {
       </div>
         <div className='hidden lg:flex gap-10'>
             {NavItems().map((item, index) => (
-                <div className='' key={index}>
-                    <a href={item.href}>{item.name}</a>
+                <div key={index}>
+                    <a className='font-medium' href={item.href}>{item.name}</a>
                 </div>
                 )
                 )}
