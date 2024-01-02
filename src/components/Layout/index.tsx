@@ -5,7 +5,7 @@ const Layout = ({children, className} : {
     className?: string
 }) => {
   return (
-    <div className={clsx("px-6 lg:pl-24 xl:px-48 mx-auto w-full", className)}>
+    <div className={clsx("px-6 lg:px-24 xl:px-48 mx-auto w-full", className)}>
         {children}
     </div>
   )
