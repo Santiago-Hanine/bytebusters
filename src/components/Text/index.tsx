@@ -4,7 +4,7 @@ const Text = () => {
 
 
   return (
-    <Layout className="xl:px-0 max-w-5xl py-20 text-xl lg:text-2xl tracking-wide text-center font-light">
+    <Layout className="xl:px-0 max-w-7xl py-20 text-xl lg:text-2xl tracking-wide text-center font-light">
         <p>
             Introducing ByteBusters, the go-to destination for all your computer repair needs in California, USA. Our team of skilled technicians is dedicated to providing top-notch solutions for any computer-related issues you may encounter. Whether it's a hardware malfunction or software glitches, we have the expertise to fix it efficiently and effectively. 
             <br /> <br /> 
