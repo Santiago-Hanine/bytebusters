@@ -6,7 +6,7 @@ interface CardProps {
 }
 
 const Card = ({card}: CardProps) => (
-              <div className="h-auto w-full flex flex-col items-end rounded-t-lg flex-1">
+              <div className="h-auto w-full max-w-[30rem] flex flex-col items-end rounded-t-lg flex-1">
                 <Image src={card.image} 
                 alt={card.title}
                 width={500}
