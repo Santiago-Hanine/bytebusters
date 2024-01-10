@@ -6,16 +6,16 @@
                 href: "/"
             },
             {
-                name: "Services",
-                href: "/services"
+                name: "About",
+                href: "#about"
             },
             {
-                name: "About",
-                href: "/about"
+                name: "Services",
+                href: "#services"
             },
             {
                 name: "Contact",
-                href: "/contact"
+                href: "#contact"
             },
         ];
         return items;

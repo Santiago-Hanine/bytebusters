@@ -5,20 +5,18 @@ import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <Layout className='bg-secondary sticky top-0 flex justify-between items-center h-20'>
+    <header className='px-6 lg:px-24 xl:px-48 mx-auto w-full bg-secondary sticky top-0 flex justify-between items-center h-20 z-10'>
       <div className='flex items-center gap-2 text-xl'>
         <Image src='/bytebusters-logo.png' width={50} height={50} alt='logo'/>
         <h3>ByteBusters</h3>
       </div>
-        <div className='hidden lg:flex gap-10'>
+        <nav className='hidden lg:flex gap-10'>
             {NavItems().map((item, index) => (
-                <div key={index}>
-                    <a className='font-medium' href={item.href}>{item.name}</a>
-                </div>
+                    <a key={index} className='font-medium' href={item.href}>{item.name}</a>
                 )
                 )}
-        </div>
-    </Layout>
+        </nav>
+    </header>
   )
 }
 
