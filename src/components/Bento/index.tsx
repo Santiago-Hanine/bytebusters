@@ -4,7 +4,7 @@ import Layout from "../Layout"
 
 const Bento = () => {
   return (
-    <Layout className="grid md:grid-cols-3 md:grid-rows-2 h-screen gap-4 py-20">
+    <Layout className="grid md:grid-cols-3 md:grid-rows-2 md:h-screen gap-4 py-20">
         <BentoItem 
           className="md:col-span-2" 
           title="Diagnostic Delight" 
